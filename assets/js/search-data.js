@@ -15,7 +15,7 @@ const ninja = document.querySelector('ninja-keys');
 // add the home and posts menu items
 ninja.data = [{
     id: "nav-about",
-    title: "About",
+    title: "about",
     section: "Navigation menu",
     handler: () => {
       window.location.href = "/";
@@ -34,7 +34,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
-        },{id: "post-google-gemini-updates-flash-1-5-gemma-2-and-project-astra",
+        },{id: "post-a-post-with-image-galleries",
+      
+        title: "a post with image galleries",
+      
+      description: "this is what included image galleries could look like",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/blog/2024/photo-gallery/";
+        
+      },
+    },{id: "post-google-gemini-updates-flash-1-5-gemma-2-and-project-astra",
       
         title: 'Google Gemini updates: Flash 1.5, Gemma 2 and Project Astra <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
       
@@ -386,65 +397,67 @@ ninja.data = [{
           window.location.href = "/blog/2015/formatting-and-links/";
         
       },
-    },{id: "news-a-simple-inline-announcement",
-          title: 'A simple inline announcement.',
+    },{id: "news-our-paper-impact-of-a-rigid-sphere-onto-an-ellastic-membrane-was-accepted-at-the-proceedings-of-the-royal-society-a",
+          title: 'Our paper “Impact of a rigid sphere onto an ellastic membrane” was accepted...',
           description: "",
-          section: "News",},{id: "news-a-long-announcement-with-details",
-          title: 'A long announcement with details',
+          section: "News",},{id: "news-i-had-the-pleasure-to-visit-and-collaborate-with-the-harris-lab-brown-university",
+          title: 'I had the pleasure to visit and collaborate with the Harris Lab @...',
           description: "",
-          section: "News",handler: () => {
-              window.location.href = "/news/announcement_2/";
-            },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
-          title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
+          section: "News",},{id: "news-i-attended-the-wonderful-advanced-school-on-experimental-physics-at-cbpf-where-i-we-did-research-on-foundational-phenomena-for-spintronic-devices",
+          title: 'I attended the wonderful Advanced School on Experimental Physics at CBPF, where I...',
           description: "",
           section: "News",},{id: "news-i-will-be-starting-my-phd-at-the-school-of-engineering-of-brown-university-it-will-be-an-excellent-opportunity-to-learn-new-skills",
           title: 'I will be starting my PhD at the School of Engineering of Brown...',
           description: "",
-          section: "News",},{id: "projects-project-7",
-          title: 'project 7',
-          description: "with background image",
+          section: "News",},{id: "news-i-had-the-pleasure-to-be-selected-for-the-cern-summer-student-programme",
+          title: 'I had the pleasure to be selected for the CERN summer student programme!...',
+          description: "",
+          section: "News",},{id: "news-i-presented-my-latest-work-at-the-brazil-china-joint-mathematical-meeting",
+          title: 'I presented my latest work at the Brazil-China Joint Mathematical Meeting',
+          description: "",
+          section: "News",},{id: "news-i-presented-my-latest-work-at-the-annual-meeting-of-the-american-physical-society-division-of-fluid-dynamics",
+          title: 'I presented my latest work at the Annual Meeting of the American Physical...',
+          description: "",
+          section: "News",},{id: "projects-simulating-deformable-impacts",
+          title: 'Simulating deformable impacts',
+          description: "The kinematic match method",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/7_project/";
-            },},{id: "projects-project-8",
-          title: 'project 8',
-          description: "an other project with a background image and giscus comments",
+              window.location.href = "/projects/1_KM/";
+            },},{id: "projects-spintronics",
+          title: 'Spintronics',
+          description: "Advancibg oyr understanding of spintronic materials",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/8_project/";
-            },},{id: "projects-project-9",
-          title: 'project 9',
-          description: "another project with an image 🎉",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/9_project/";
-            },},{id: "projects-project-1",
-          title: 'project 1',
-          description: "with background image",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/1_project/";
-            },},{id: "projects-project-2",
-          title: 'project 2',
-          description: "a project with a background image and giscus comments",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/2_project/";
-            },},{id: "projects-project-3-with-very-long-name",
-          title: 'project 3 with very long name',
-          description: "a project that redirects to another website",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/3_project/";
-            },},{id: "projects-project-4",
-          title: 'project 4',
+              window.location.href = "/projects/2_CBPF/";
+            },},{id: "projects-promoting-science-olympiads",
+          title: 'Promoting Science Olympiads',
           description: "another without an image",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/4_project/";
-            },},{id: "projects-project-5",
-          title: 'project 5',
-          description: "a project with a background image",
+              window.location.href = "/projects/4_JT/";
+            },},{id: "projects-battling-corruption-in-paraguay",
+          title: 'Battling corruption in Paraguay',
+          description: "",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/5_project/";
-            },},{id: "projects-project-6",
-          title: 'project 6',
-          description: "a project with no image",
+              window.location.href = "/projects/5_Reaccion/";
+            },},{id: "projects-mathura",
+          title: 'Mathura',
+          description: "Promoting education acess in paraguay",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/6_project/";
+              window.location.href = "/projects/6_Mathura/";
+            },},{id: "projects-similaritysolver-jl",
+          title: 'SimilaritySolver.jl',
+          description: "A symbolic PDE finder for similarity solutions.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/7_zsimilarity/";
+            },},{id: "projects-plz-learn-to-code",
+          title: 'Plz learn to code',
+          description: "",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/9_PE/";
+            },},{id: "projects-i-was-a-summer-intern-at-cern",
+          title: 'I was a summer intern at CERN!.',
+          description: "",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/announcement_2/";
             },},{
         id: 'social-github',
         title: 'GitHub',

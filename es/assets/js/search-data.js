@@ -14,27 +14,38 @@ const ninja = document.querySelector('ninja-keys');
 
 // add the home and posts menu items
 ninja.data = [{
-    id: "nav-about",
-    title: "About",
+    id: "nav-acerca-de",
+    title: "Acerca de",
     section: "",
     handler: () => {
       window.location.href = "/es/";
     },
-  },{id: "nav-projects",
-          title: "Projects",
-          description: "Here are some of the projects I was lately involved!.",
+  },{id: "nav-proyectos",
+          title: "Proyectos",
+          description: "Aqui estão alguns dos projetos em que estive envolvido ultimamente!.",
           section: "",
           handler: () => {
             window.location.href = "/es/projects/";
           },
         },{id: "nav-cv",
           title: "cv",
-          description: "An updated version of my CV",
+          description: "Una versión actualizada de mi CV",
           section: "",
           handler: () => {
             window.location.href = "/es/cv/";
           },
-        },{id: "post-google-gemini-updates-flash-1-5-gemma-2-and-project-astra",
+        },{id: "post-un-post-con-galerías-de-imágenes",
+      
+        title: "un post con galerías de imágenes",
+      
+      description: "así es como podrían verse las galerías de imágenes incluidas",
+      section: "",
+      handler: () => {
+        
+          window.location.href = "/es/blog/2024/photo-gallery/";
+        
+      },
+    },{id: "post-google-gemini-updates-flash-1-5-gemma-2-and-project-astra",
       
         title: 'Google Gemini updates: Flash 1.5, Gemma 2 and Project Astra <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
       
@@ -45,220 +56,220 @@ ninja.data = [{
           window.open("https://blog.google/technology/ai/google-gemini-update-flash-ai-assistant-io-2024/", "_blank");
         
       },
-    },{id: "post-a-post-with-tabs",
+    },{id: "post-un-post-con-pestañas",
       
-        title: "a post with tabs",
+        title: "un post con pestañas",
       
-      description: "this is what included tabs in a post could look like",
+      description: "este es el aspecto que podría tener un post con pestañas incluidas",
       section: "",
       handler: () => {
         
           window.location.href = "/es/blog/2024/tabs/";
         
       },
-    },{id: "post-a-post-with-typograms",
+    },{id: "post-un-post-con-tipogramas",
       
-        title: "a post with typograms",
+        title: "un post con tipogramas",
       
-      description: "this is what included typograms code could look like",
+      description: "así es como podría verse el código de tipogramas incluido",
       section: "",
       handler: () => {
         
           window.location.href = "/es/blog/2024/typograms/";
         
       },
-    },{id: "post-a-post-that-can-be-cited",
+    },{id: "post-um-post-que-pode-ser-citado",
       
-        title: "a post that can be cited",
+        title: "um post que pode ser citado",
       
-      description: "this is what a post that can be cited looks like",
+      description: "isto é como um post que pode ser citado se parece",
       section: "",
       handler: () => {
         
           window.location.href = "/es/blog/2024/post-citation/";
         
       },
-    },{id: "post-a-post-with-pseudo-code",
+    },{id: "post-un-post-con-pseudocódigo",
       
-        title: "a post with pseudo code",
+        title: "un post con pseudocódigo",
       
-      description: "this is what included pseudo code could look like",
+      description: "así es como podría verse el pseudocódigo incluido",
       section: "",
       handler: () => {
         
           window.location.href = "/es/blog/2024/pseudocode/";
         
       },
-    },{id: "post-a-post-with-code-diff",
+    },{id: "post-un-post-con-diferencias-de-código",
       
-        title: "a post with code diff",
+        title: "un post con diferencias de código",
       
-      description: "this is how you can display code diffs",
+      description: "así es como puedes mostrar las diferencias de código",
       section: "",
       handler: () => {
         
           window.location.href = "/es/blog/2024/code-diff/";
         
       },
-    },{id: "post-a-post-with-advanced-image-components",
+    },{id: "post-un-post-con-componentes-de-imagen-avanzados",
       
-        title: "a post with advanced image components",
+        title: "un post con componentes de imagen avanzados",
       
-      description: "this is what advanced image components could look like",
+      description: "así es como podrían verse los componentes de imagen avanzados",
       section: "",
       handler: () => {
         
           window.location.href = "/es/blog/2024/advanced-images/";
         
       },
-    },{id: "post-a-post-with-vega-lite",
+    },{id: "post-un-post-con-vega-lite",
       
-        title: "a post with vega lite",
+        title: "Un post con Vega Lite",
       
-      description: "this is what included vega lite code could look like",
+      description: "Así es como podría verse el código Vega Lite incluido",
       section: "",
       handler: () => {
         
           window.location.href = "/es/blog/2024/vega-lite/";
         
       },
-    },{id: "post-a-post-with-geojson",
+    },{id: "post-un-post-con-echarts",
       
-        title: "a post with geojson",
+        title: "un post con echarts",
       
-      description: "this is what included geojson code could look like",
-      section: "",
-      handler: () => {
-        
-          window.location.href = "/es/blog/2024/geojson-map/";
-        
-      },
-    },{id: "post-a-post-with-echarts",
-      
-        title: "a post with echarts",
-      
-      description: "this is what included echarts code could look like",
+      description: "este es un ejemplo de cómo podría verse el código incluido de echarts",
       section: "",
       handler: () => {
         
           window.location.href = "/es/blog/2024/echarts/";
         
       },
-    },{id: "post-a-post-with-chart-js",
+    },{id: "post-un-post-con-chart-js",
       
-        title: "a post with chart.js",
+        title: "un post con chart.js",
       
-      description: "this is what included chart.js code could look like",
+      description: "así es como podría verse el código incluido de chart.js",
       section: "",
       handler: () => {
         
           window.location.href = "/es/blog/2024/chartjs/";
         
       },
-    },{id: "post-a-post-with-tikzjax",
+    },{id: "post-geojson-map",
       
-        title: "a post with TikZJax",
+        title: "Geojson Map",
       
-      description: "this is what included TikZ code could look like",
+      description: "",
+      section: "",
+      handler: () => {
+        
+          window.location.href = "/es/blog/2024/geojson-map/";
+        
+      },
+    },{id: "post-un-artículo-con-tikzjax",
+      
+        title: "un artículo con TikZJax",
+      
+      description: "así es como podría verse el código TikZ incluido",
       section: "",
       handler: () => {
         
           window.location.href = "/es/blog/2023/tikzjax/";
         
       },
-    },{id: "post-a-post-with-bibliography",
+    },{id: "post-un-artículo-con-bibliografía",
       
-        title: "a post with bibliography",
+        title: "un artículo con bibliografía",
       
-      description: "an example of a blog post with bibliography",
+      description: "un ejemplo de una entrada de blog con bibliografía",
       section: "",
       handler: () => {
         
           window.location.href = "/es/blog/2023/post-bibliography/";
         
       },
-    },{id: "post-a-post-with-jupyter-notebook",
+    },{id: "post-jupyter-notebook",
       
-        title: "a post with jupyter notebook",
+        title: "Jupyter Notebook",
       
-      description: "an example of a blog post with jupyter notebook",
+      description: "",
       section: "",
       handler: () => {
         
           window.location.href = "/es/blog/2023/jupyter-notebook/";
         
       },
-    },{id: "post-a-post-with-custom-blockquotes",
+    },{id: "post-custom-blockquotes",
       
-        title: "a post with custom blockquotes",
+        title: "Custom Blockquotes",
       
-      description: "an example of a blog post with custom blockquotes",
+      description: "",
       section: "",
       handler: () => {
         
           window.location.href = "/es/blog/2023/custom-blockquotes/";
         
       },
-    },{id: "post-a-post-with-table-of-contents-on-a-sidebar",
+    },{id: "post-un-post-con-tabla-de-contenido-en-una-barra-lateral",
       
-        title: "a post with table of contents on a sidebar",
+        title: "un post con tabla de contenido en una barra lateral",
       
-      description: "an example of a blog post with table of contents on a sidebar",
+      description: "un ejemplo de una publicación de blog con tabla de contenido en una barra lateral",
       section: "",
       handler: () => {
         
           window.location.href = "/es/blog/2023/sidebar-table-of-contents/";
         
       },
-    },{id: "post-a-post-with-audios",
+    },{id: "post-um-post-com-áudios",
       
-        title: "a post with audios",
+        title: "um post com áudios",
       
-      description: "this is what included audios could look like",
+      description: "isto é o que áudios incluídos podem parecer",
       section: "",
       handler: () => {
         
           window.location.href = "/es/blog/2023/audios/";
         
       },
-    },{id: "post-a-post-with-videos",
+    },{id: "post-un-post-con-videos",
       
-        title: "a post with videos",
+        title: "un post con videos",
       
-      description: "this is what included videos could look like",
+      description: "así es como podrían verse los videos incluidos",
       section: "",
       handler: () => {
         
           window.location.href = "/es/blog/2023/videos/";
         
       },
-    },{id: "post-displaying-beautiful-tables-with-bootstrap-tables",
+    },{id: "post-mostrar-tablas-bonitas-con-bootstrap-tables",
       
-        title: "displaying beautiful tables with Bootstrap Tables",
+        title: "Mostrar tablas bonitas con Bootstrap Tables",
       
-      description: "an example of how to use Bootstrap Tables",
+      description: "un ejemplo de cómo usar Bootstrap Tables",
       section: "",
       handler: () => {
         
           window.location.href = "/es/blog/2023/tables/";
         
       },
-    },{id: "post-a-post-with-table-of-contents",
+    },{id: "post-un-post-con-tabla-de-contenido",
       
-        title: "a post with table of contents",
+        title: "un post con tabla de contenido",
       
-      description: "an example of a blog post with table of contents",
+      description: "un ejemplo de una entrada de blog con tabla de contenido",
       section: "",
       handler: () => {
         
           window.location.href = "/es/blog/2023/table-of-contents/";
         
       },
-    },{id: "post-a-post-with-giscus-comments",
+    },{id: "post-un-post-con-comentarios-de-giscus",
       
-        title: "a post with giscus comments",
+        title: "un post con comentarios de giscus",
       
-      description: "an example of a blog post with giscus comments",
+      description: "un ejemplo de una publicación de blog con comentarios de giscus",
       section: "",
       handler: () => {
         
@@ -276,22 +287,22 @@ ninja.data = [{
           window.open("https://medium.com/@al-folio/displaying-external-posts-on-your-al-folio-blog-b60a1d241a0a?source=rss-17feae71c3c4------2", "_blank");
         
       },
-    },{id: "post-a-post-with-redirect",
+    },{id: "post-un-post-con-redireccionamiento",
       
-        title: "a post with redirect",
+        title: "un post con redireccionamiento",
       
-      description: "you can also redirect to assets like pdf",
+      description: "también puedes redirigir a recursos como pdf",
       section: "",
       handler: () => {
         
           window.location.href = "/es/assets/pdf/CV_Elvis.pdf";
         
       },
-    },{id: "post-a-post-with-diagrams",
+    },{id: "post-un-post-con-diagrammi",
       
-        title: "a post with diagrams",
+        title: "un post con diagrammi",
       
-      description: "an example of a blog post with diagrams",
+      description: "un esempio di post del blog con diagrammi",
       section: "",
       handler: () => {
         
@@ -309,142 +320,144 @@ ninja.data = [{
           window.location.href = "/es/blog/2021/distill/";
         
       },
-    },{id: "post-a-post-with-twitter",
+    },{id: "post-un-post-con-twitter",
       
-        title: "a post with twitter",
+        title: "un post con twitter",
       
-      description: "an example of a blog post with twitter",
+      description: "un ejemplo de una publicación de blog con twitter",
       section: "",
       handler: () => {
         
           window.location.href = "/es/blog/2020/twitter/";
         
       },
-    },{id: "post-a-distill-style-blog-post",
+    },{id: "post-distill",
       
-        title: "a distill-style blog post",
+        title: "Distill",
       
-      description: "an example of a distill-style blog post and main elements",
+      description: "",
       section: "",
       handler: () => {
         
           window.location.href = "/es/blog/2018/distill/";
         
       },
-    },{id: "post-a-post-with-disqus-comments",
+    },{id: "post-un-artículo-con-matemáticas",
       
-        title: "a post with disqus comments",
+        title: "un artículo con matemáticas",
       
-      description: "an example of a blog post with disqus comments",
-      section: "",
-      handler: () => {
-        
-          window.location.href = "/es/blog/2015/disqus-comments/";
-        
-      },
-    },{id: "post-a-post-with-math",
-      
-        title: "a post with math",
-      
-      description: "an example of a blog post with some math",
+      description: "un ejemplo de un artículo de blog con algunas matemáticas",
       section: "",
       handler: () => {
         
           window.location.href = "/es/blog/2015/math/";
         
       },
-    },{id: "post-a-post-with-code",
+    },{id: "post-disqus-comments",
       
-        title: "a post with code",
+        title: "Disqus Comments",
       
-      description: "an example of a blog post with some code",
+      description: "",
+      section: "",
+      handler: () => {
+        
+          window.location.href = "/es/blog/2015/disqus-comments/";
+        
+      },
+    },{id: "post-un-post-con-código",
+      
+        title: "un post con código",
+      
+      description: "un ejemplo de una publicación de blog con algo de código",
       section: "",
       handler: () => {
         
           window.location.href = "/es/blog/2015/code/";
         
       },
-    },{id: "post-a-post-with-images",
+    },{id: "post-un-post-con-imágenes",
       
-        title: "a post with images",
+        title: "un post con imágenes",
       
-      description: "this is what included images could look like",
+      description: "así es como podrían verse las imágenes incluidas",
       section: "",
       handler: () => {
         
           window.location.href = "/es/blog/2015/images/";
         
       },
-    },{id: "post-a-post-with-formatting-and-links",
+    },{id: "post-formatting-and-links",
       
-        title: "a post with formatting and links",
+        title: "Formatting And Links",
       
-      description: "march &amp; april, looking forward to summer",
+      description: "",
       section: "",
       handler: () => {
         
           window.location.href = "/es/blog/2015/formatting-and-links/";
         
       },
-    },{id: "news-a-simple-inline-announcement",
-          title: 'A simple inline announcement.',
+    },{id: "news-our-paper-impact-of-a-rigid-sphere-onto-an-ellastic-membrane-was-accepted-at-the-proceedings-of-the-royal-society-a",
+          title: 'Our paper “Impact of a rigid sphere onto an ellastic membrane” was accepted...',
           description: "",
-          section: "",},{id: "news-a-long-announcement-with-details",
-          title: 'A long announcement with details',
+          section: "",},{id: "news-i-had-the-pleasure-to-visit-and-collaborate-with-the-harris-lab-brown-university",
+          title: 'I had the pleasure to visit and collaborate with the Harris Lab @...',
           description: "",
-          section: "",handler: () => {
-              window.location.href = "/es/news/announcement_2/";
-            },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
-          title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
+          section: "",},{id: "news-participei-da-maravilhosa-escola-avançada-de-física-experimental-no-cbpf-onde-fizemos-pesquisa-sobre-fenômenos-fundamentais-para-dispositivos-espintrônicos",
+          title: 'Participei da maravilhosa Escola Avançada de Física Experimental no CBPF, onde fizemos pesquisa...',
           description: "",
           section: "",},{id: "news-i-will-be-starting-my-phd-at-the-school-of-engineering-of-brown-university-it-will-be-an-excellent-opportunity-to-learn-new-skills",
           title: 'I will be starting my PhD at the School of Engineering of Brown...',
           description: "",
-          section: "",},{id: "projects-project-7",
-          title: 'project 7',
-          description: "with background image",
+          section: "",},{id: "news-i-had-the-pleasure-to-be-selected-for-the-cern-summer-student-programme",
+          title: 'I had the pleasure to be selected for the CERN summer student programme!...',
+          description: "",
+          section: "",},{id: "news-i-presented-my-latest-work-at-the-brazil-china-joint-mathematical-meeting",
+          title: 'I presented my latest work at the Brazil-China Joint Mathematical Meeting',
+          description: "",
+          section: "",},{id: "news-i-presented-my-latest-work-at-the-annual-meeting-of-the-american-physical-society-division-of-fluid-dynamics",
+          title: 'I presented my latest work at the Annual Meeting of the American Physical...',
+          description: "",
+          section: "",},{id: "projects-simulación-de-impactos-deformables",
+          title: 'Simulación de impactos deformables',
+          description: "El método de correspondencia cinemática",
           section: "",handler: () => {
-              window.location.href = "/es/projects/7_project/";
-            },},{id: "projects-project-8",
-          title: 'project 8',
-          description: "an other project with a background image and giscus comments",
+              window.location.href = "/es/projects/1_KM/";
+            },},{id: "projects-espintrônica",
+          title: 'Espintrônica',
+          description: "Avançando nossa compreensão de materiais espintrônicos",
           section: "",handler: () => {
-              window.location.href = "/es/projects/8_project/";
-            },},{id: "projects-project-9",
-          title: 'project 9',
-          description: "another project with an image 🎉",
+              window.location.href = "/es/projects/2_CBPF/";
+            },},{id: "projects-promoción-de-las-olimpiadas-de-ciencias",
+          title: 'Promoción de las Olimpiadas de Ciencias',
+          description: "otro sin imagen",
           section: "",handler: () => {
-              window.location.href = "/es/projects/9_project/";
-            },},{id: "projects-project-1",
-          title: 'project 1',
-          description: "with background image",
+              window.location.href = "/es/projects/4_JT/";
+            },},{id: "projects-lucha-contra-la-corrupción-en-paraguay",
+          title: 'Lucha contra la corrupción en Paraguay',
+          description: "",
           section: "",handler: () => {
-              window.location.href = "/es/projects/1_project/";
-            },},{id: "projects-project-2",
-          title: 'project 2',
-          description: "a project with a background image and giscus comments",
+              window.location.href = "/es/projects/5_Reaccion/";
+            },},{id: "projects-mathura",
+          title: 'Mathura',
+          description: "Promoviendo el acceso a la educación en Paraguay",
           section: "",handler: () => {
-              window.location.href = "/es/projects/2_project/";
-            },},{id: "projects-project-3-with-very-long-name",
-          title: 'project 3 with very long name',
-          description: "a project that redirects to another website",
+              window.location.href = "/es/projects/6_Mathura/";
+            },},{id: "projects-similaritysolver-jl",
+          title: 'SimilaritySolver.jl',
+          description: "Un buscador simbólico de Ecuaciones Diferenciales Parciales para soluciones de similitud.",
           section: "",handler: () => {
-              window.location.href = "/es/projects/3_project/";
-            },},{id: "projects-project-4",
-          title: 'project 4',
-          description: "another without an image",
+              window.location.href = "/es/projects/7_zsimilarity/";
+            },},{id: "projects-plz-learn-to-code",
+          title: 'Plz learn to code',
+          description: "",
           section: "",handler: () => {
-              window.location.href = "/es/projects/4_project/";
-            },},{id: "projects-project-5",
-          title: 'project 5',
-          description: "a project with a background image",
+              window.location.href = "/es/projects/9_PE/";
+            },},{id: "projects-fui-becario-de-verano-en-el-cern",
+          title: '¡Fui becario de verano en el CERN!.',
+          description: "",
           section: "",handler: () => {
-              window.location.href = "/es/projects/5_project/";
-            },},{id: "projects-project-6",
-          title: 'project 6',
-          description: "a project with no image",
-          section: "",handler: () => {
-              window.location.href = "/es/projects/6_project/";
+              window.location.href = "/es/projects/announcement_2/";
             },},{
         id: 'social-github',
         title: 'GitHub',

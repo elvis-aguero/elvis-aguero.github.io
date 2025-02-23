@@ -15,26 +15,37 @@ const ninja = document.querySelector('ninja-keys');
 // add the home and posts menu items
 ninja.data = [{
     id: "nav-sobre",
-    title: "sobre",
+    title: "Sobre",
     section: "Menu de navegação",
     handler: () => {
       window.location.href = "/pt-br/";
     },
   },{id: "nav-projetos",
-          title: "projetos",
-          description: "Uma crescente coleção de seus projetos interessantes.",
+          title: "Projetos",
+          description: "Aqui estão alguns dos projetos em que estive envolvido ultimamente!.",
           section: "Menu de navegação",
           handler: () => {
             window.location.href = "/pt-br/projects/";
           },
         },{id: "nav-cv",
           title: "cv",
-          description: "Esta é uma descrição da página. Você pode modificá-la em &#39;_pages/cv.md&#39;. Também pode alterar ou remover o botão no topo de download de pdf.",
+          description: "An updated version of my CV",
           section: "Menu de navegação",
           handler: () => {
             window.location.href = "/pt-br/cv/";
           },
-        },{id: "post-google-gemini-updates-flash-1-5-gemma-2-and-project-astra",
+        },{id: "post-un-post-con-galerías-de-imágenes",
+      
+        title: "un post con galerías de imágenes",
+      
+      description: "así es como podrían verse las galerías de imágenes incluidas",
+      section: "Postagens",
+      handler: () => {
+        
+          window.location.href = "/pt-br/blog/2024/photo-gallery/";
+        
+      },
+    },{id: "post-google-gemini-updates-flash-1-5-gemma-2-and-project-astra",
       
         title: 'Google Gemini updates: Flash 1.5, Gemma 2 and Project Astra <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
       
@@ -386,65 +397,67 @@ ninja.data = [{
           window.location.href = "/pt-br/blog/2015/formatting-and-links/";
         
       },
-    },{id: "news-um-anúncio-simples-em-uma-linha",
-          title: 'Um anúncio simples em uma linha.',
+    },{id: "news-our-paper-impact-of-a-rigid-sphere-onto-an-ellastic-membrane-was-accepted-at-the-proceedings-of-the-royal-society-a",
+          title: 'Our paper “Impact of a rigid sphere onto an ellastic membrane” was accepted...',
           description: "",
-          section: "Novidades",},{id: "news-um-anúncio-longo-com-detalhes",
-          title: 'Um anúncio longo com detalhes',
+          section: "Novidades",},{id: "news-i-had-the-pleasure-to-visit-and-collaborate-with-the-harris-lab-brown-university",
+          title: 'I had the pleasure to visit and collaborate with the Harris Lab @...',
           description: "",
-          section: "Novidades",handler: () => {
-              window.location.href = "/pt-br/news/announcement_2/";
-            },},{id: "news-um-anúncio-simples-em-uma-linha-com-markdown-emoji-sparkles-smile",
-          title: 'Um anúncio simples em uma linha com Markdown emoji! :sparkles: :smile:',
+          section: "Novidades",},{id: "news-participei-da-maravilhosa-escola-avançada-de-física-experimental-no-cbpf-onde-realizamos-pesquisa-sobre-fenômenos-fundamentais-para-dispositivos-espintrônicos",
+          title: 'Participei da maravilhosa Escola Avançada de Física Experimental no CBPF, onde realizamos pesquisa...',
           description: "",
           section: "Novidades",},{id: "news-i-will-be-starting-my-phd-at-the-school-of-engineering-of-brown-university-it-will-be-an-excellent-opportunity-to-learn-new-skills",
           title: 'I will be starting my PhD at the School of Engineering of Brown...',
           description: "",
-          section: "Novidades",},{id: "projects-project-7",
-          title: 'project 7',
-          description: "with background image",
+          section: "Novidades",},{id: "news-i-had-the-pleasure-to-be-selected-for-the-cern-summer-student-programme",
+          title: 'I had the pleasure to be selected for the CERN summer student programme!...',
+          description: "",
+          section: "Novidades",},{id: "news-i-presented-my-latest-work-at-the-brazil-china-joint-mathematical-meeting",
+          title: 'I presented my latest work at the Brazil-China Joint Mathematical Meeting',
+          description: "",
+          section: "Novidades",},{id: "news-i-presented-my-latest-work-at-the-annual-meeting-of-the-american-physical-society-division-of-fluid-dynamics",
+          title: 'I presented my latest work at the Annual Meeting of the American Physical...',
+          description: "",
+          section: "Novidades",},{id: "projects-simulação-de-impactos-deformáveis",
+          title: 'Simulação de impactos deformáveis',
+          description: "O método de matching cinemático",
           section: "Projetos",handler: () => {
-              window.location.href = "/pt-br/projects/7_project/";
-            },},{id: "projects-project-8",
-          title: 'project 8',
-          description: "an other project with a background image and giscus comments",
+              window.location.href = "/pt-br/projects/1_KM/";
+            },},{id: "projects-spintrônica",
+          title: 'Spintrônica',
+          description: "Avançando nossa compreensão sobre materiais spintrônicos",
           section: "Projetos",handler: () => {
-              window.location.href = "/pt-br/projects/8_project/";
-            },},{id: "projects-project-9",
-          title: 'project 9',
-          description: "another project with an image 🎉",
+              window.location.href = "/pt-br/projects/2_CBPF/";
+            },},{id: "projects-promovendo-olimpíadas-de-ciências",
+          title: 'Promovendo Olimpíadas de Ciências',
+          description: "outra sem imagem",
           section: "Projetos",handler: () => {
-              window.location.href = "/pt-br/projects/9_project/";
-            },},{id: "projects-projeto-1",
-          title: 'projeto 1',
-          description: "com imagem de fundo",
+              window.location.href = "/pt-br/projects/4_JT/";
+            },},{id: "projects-lucha-contra-la-corrupción-en-paraguay",
+          title: 'Lucha contra la corrupción en Paraguay',
+          description: "",
           section: "Projetos",handler: () => {
-              window.location.href = "/pt-br/projects/1_project/";
-            },},{id: "projects-projeto-2",
-          title: 'projeto 2',
-          description: "um projeto com imagem de fundo e comentários do giscus",
+              window.location.href = "/pt-br/projects/5_Reaccion/";
+            },},{id: "projects-mathura",
+          title: 'Mathura',
+          description: "Promovendo o acesso à educação no Paraguai",
           section: "Projetos",handler: () => {
-              window.location.href = "/pt-br/projects/2_project/";
-            },},{id: "projects-projeto-3-com-um-nome-bem-longo",
-          title: 'projeto 3 com um nome bem longo',
-          description: "um projeto que redireciona pra outro website",
+              window.location.href = "/pt-br/projects/6_Mathura/";
+            },},{id: "projects-similaritysolver-jl",
+          title: 'SimilaritySolver.jl',
+          description: "Um buscador simbólico de EDPs (Equações Diferenciais Parciais) para soluções de similaridade.",
           section: "Projetos",handler: () => {
-              window.location.href = "/pt-br/projects/3_project/";
-            },},{id: "projects-projeto-4",
-          title: 'projeto 4',
-          description: "outro sem imagem",
+              window.location.href = "/pt-br/projects/7_zsimilarity/";
+            },},{id: "projects-por-favor-aprende-a-programar",
+          title: 'Por favor, aprende a programar',
+          description: "",
           section: "Projetos",handler: () => {
-              window.location.href = "/pt-br/projects/4_project/";
-            },},{id: "projects-projeto-5",
-          title: 'projeto 5',
-          description: "um projeto com imagem de fundo",
+              window.location.href = "/pt-br/projects/9_PE/";
+            },},{id: "projects-i-was-a-summer-intern-at-cern",
+          title: 'I was a summer intern at CERN!.',
+          description: "",
           section: "Projetos",handler: () => {
-              window.location.href = "/pt-br/projects/5_project/";
-            },},{id: "projects-projeto-6",
-          title: 'projeto 6',
-          description: "um projeto sem imagem",
-          section: "Projetos",handler: () => {
-              window.location.href = "/pt-br/projects/6_project/";
+              window.location.href = "/pt-br/projects/announcement_2/";
             },},{
         id: 'social-github',
         title: 'GitHub',
