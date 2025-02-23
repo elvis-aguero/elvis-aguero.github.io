@@ -1,7 +1,7 @@
 
 const currentUrl = window.location.href;
-const siteUrl = "https://elvirsbr0wn.github.io"; 
-let updatedUrl = currentUrl.replace("https://elvirsbr0wn.github.io", "");
+const siteUrl = "https://elvis-aguero.github.io"; 
+let updatedUrl = currentUrl.replace("https://elvis-aguero.github.io", "");
 if (currentUrl.length == updatedUrl.length && currentUrl.startsWith("http://127.0.0.1")) {
   const otherSiteUrl = siteUrl.replace("localhost", "127.0.0.1");
   updatedUrl = currentUrl.replace(otherSiteUrl + "", "");
@@ -20,33 +20,12 @@ ninja.data = [{
     handler: () => {
       window.location.href = "/pt-br/";
     },
-  },{id: "nav-blog",
-          title: "blog",
-          description: "um tema simples para acadêmicos",
-          section: "Menu de navegação",
-          handler: () => {
-            window.location.href = "/pt-br/blog/";
-          },
-        },{id: "nav-publicações",
-          title: "publicações",
-          description: "publicações por categoria em ordem cronológica reversa. gerado pelo jekyll-scholar.",
-          section: "Menu de navegação",
-          handler: () => {
-            window.location.href = "/pt-br/publications/";
-          },
-        },{id: "nav-projetos",
+  },{id: "nav-projetos",
           title: "projetos",
           description: "Uma crescente coleção de seus projetos interessantes.",
           section: "Menu de navegação",
           handler: () => {
             window.location.href = "/pt-br/projects/";
-          },
-        },{id: "nav-repositórios",
-          title: "repositórios",
-          description: "Edite o `_data/repositories.yml` e mude as listas `github_users` e `github_repos` para incluir seu próprio perfil do GitHub e repositórios.",
-          section: "Menu de navegação",
-          handler: () => {
-            window.location.href = "/pt-br/repositories/";
           },
         },{id: "nav-cv",
           title: "cv",
@@ -55,53 +34,7 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/pt-br/cv/";
           },
-        },{id: "nav-ensino",
-          title: "ensino",
-          description: "Materiais de cursos que você ministrou. Substitua esse texto com sua descrição.",
-          section: "Menu de navegação",
-          handler: () => {
-            window.location.href = "/pt-br/teaching/";
-          },
-        },{id: "nav-membros",
-          title: "membros",
-          description: "membros do grupo de pesquisa ou laboratório",
-          section: "Menu de navegação",
-          handler: () => {
-            window.location.href = "/pt-br/people/";
-          },
-        },{id: "dropdown-publicações",
-              title: "publicações",
-              description: "",
-              section: "Outras opções",
-              handler: () => {
-                window.location.href = "/pt-br";
-              },
-            },{id: "dropdown-projetos",
-              title: "projetos",
-              description: "",
-              section: "Outras opções",
-              handler: () => {
-                window.location.href = "/pt-br";
-              },
-            },{id: "dropdown-blog",
-              title: "blog",
-              description: "",
-              section: "Outras opções",
-              handler: () => {
-                window.location.href = "/pt-br/blog/";
-              },
-            },{id: "post-a-post-with-image-galleries",
-      
-        title: "a post with image galleries",
-      
-      description: "this is what included image galleries could look like",
-      section: "Postagens",
-      handler: () => {
-        
-          window.location.href = "/pt-br/blog/2024/photo-gallery/";
-        
-      },
-    },{id: "post-google-gemini-updates-flash-1-5-gemma-2-and-project-astra",
+        },{id: "post-google-gemini-updates-flash-1-5-gemma-2-and-project-astra",
       
         title: 'Google Gemini updates: Flash 1.5, Gemma 2 and Project Astra <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
       
@@ -365,6 +298,17 @@ ninja.data = [{
           window.location.href = "/pt-br/blog/2021/diagrams/";
         
       },
+    },{id: "post-a-distill-style-blog-post",
+      
+        title: "a distill-style blog post",
+      
+      description: "an example of a distill-style blog post and main elements",
+      section: "Postagens",
+      handler: () => {
+        
+          window.location.href = "/pt-br/blog/2021/distill/";
+        
+      },
     },{id: "post-a-post-with-twitter",
       
         title: "a post with twitter",
@@ -453,6 +397,9 @@ ninja.data = [{
             },},{id: "news-um-anúncio-simples-em-uma-linha-com-markdown-emoji-sparkles-smile",
           title: 'Um anúncio simples em uma linha com Markdown emoji! :sparkles: :smile:',
           description: "",
+          section: "Novidades",},{id: "news-i-will-be-starting-my-phd-at-the-school-of-engineering-of-brown-university-it-will-be-an-excellent-opportunity-to-learn-new-skills",
+          title: 'I will be starting my PhD at the School of Engineering of Brown...',
+          description: "",
           section: "Novidades",},{id: "projects-project-7",
           title: 'project 7',
           description: "with background image",
@@ -499,39 +446,32 @@ ninja.data = [{
           section: "Projetos",handler: () => {
               window.location.href = "/pt-br/projects/6_project/";
             },},{
-        id: 'social-email',
-        title: 'Enviar um email',
+        id: 'social-github',
+        title: 'GitHub',
         section: 'Redes sociais',
         handler: () => {
-          window.open("mailto:%79%6F%75@%65%78%61%6D%70%6C%65.%63%6F%6D", "_blank");
+          window.open("https://github.com/elvispy", "_blank");
         },
       },{
-        id: 'social-inspire',
-        title: 'Inspire HEP',
+        id: 'social-linkedin',
+        title: 'LinkedIn',
         section: 'Redes sociais',
         handler: () => {
-          window.open("https://inspirehep.net/authors/1010907", "_blank");
-        },
-      },{
-        id: 'social-rss',
-        title: 'RSS Feed',
-        section: 'Redes sociais',
-        handler: () => {
-          window.open("/feed.xml", "_blank");
+          window.open("https://www.linkedin.com/in/elvisaguero", "_blank");
         },
       },{
         id: 'social-scholar',
         title: 'Google Scholar',
         section: 'Redes sociais',
         handler: () => {
-          window.open("https://scholar.google.com/citations?user=qc6CJjYAAAAJ", "_blank");
+          window.open("https://scholar.google.com/citations?user=D3sDR9EAAAAJ", "_blank");
         },
       },{
         id: 'social-custom_social',
         title: 'Custom_social',
         section: 'Redes sociais',
         handler: () => {
-          window.open("https://www.alberteinstein.com/", "_blank");
+          window.open("https://sites.brown.edu/harrislab/", "_blank");
         },
       },{
           id: 'lang-en-us',
@@ -541,11 +481,11 @@ ninja.data = [{
             window.location.href = "" + updatedUrl;
           },
         },{
-          id: 'lang-fr-ca',
-          title: 'fr-ca',
+          id: 'lang-es',
+          title: 'es',
           section: 'Idiomas',
           handler: () => {
-            window.location.href = "/fr-ca" + updatedUrl;
+            window.location.href = "/es" + updatedUrl;
           },
         },{
       id: 'light-theme',

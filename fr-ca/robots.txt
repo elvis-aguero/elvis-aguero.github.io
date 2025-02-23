@@ -1,1 +1,0 @@
-User-agent: * Disallow: Sitemap: https://elvirsbr0wn.github.io/sitemap.xml
