@@ -1,7 +1,7 @@
 layout: post
-date: 2024-09-01 15:59:00-0400
+date: 2023-01-01 07:59:00-0400
 inline: true
 related_posts: false
 ---
 
-Presenté mi último trabajo en la [Reunión Anual de la División de Dinámica de Fluidos de la Sociedad Estadounidense de Física](https://meetings.aps.org/Meeting/DFD24/Session/X10)
+Nuestro artículo "Impact of a rigid sphere onto an ellastic membrane" fue aceptado en [Proceedings of the Royal Society A](https://royalsocietypublishing.org/doi/10.1098/rspa.2022.0340).

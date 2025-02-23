@@ -5,10 +5,10 @@ import re
 from time import sleep
 from google import genai
 
-LANGUAGES = {"en": "English",
-             "pt": "Portuguese",
-             "fr": "French", 
-             "es": "Spanish"}
+LANGUAGES = {"en": "ENGLISH",
+             "pt": "PORGUGUESE",
+             "fr": "FRENCH", 
+             "es": "SPANISH"}
 ansi_colors = {
     "black": "\033[30m",
     "red": "\033[31m",
@@ -68,8 +68,8 @@ def main():
 
     translated_old = ""
     if len(sys.argv) == 3:
-        extract_language = lambda path: re.search(r'/([^/]+)/[^/]+$', path).group(1)[:2]
         trans_file = sys.argv[2]
+        extract_language = lambda path: re.search(r'/([^/]+)/[^/]+$', path).group(1)[:2]
         language = LANGUAGES[extract_language(trans_file)]
         try:
             with open(trans_file, 'r', encoding='utf-8') as f:
@@ -96,7 +96,7 @@ def main():
         # while preserving Markdown formatting.
         prompt = (
             "I will provide you with a file in english. " 
-            "Provide me with a translated version so that it matches the contents from the original file." + 
+            "Provide me with a translated version so that it matches the contents from the original file. The translation should be in " + language + 
             "Preserve any Markdown/HTML/JSON formatting (headers, lists, code blocks, links, etc.):\n\n" + content + 
             "\nYour response should contain only one code block matching the style of the original file (i.e. markdown/html/json), delimited by triple backticks"
         )
