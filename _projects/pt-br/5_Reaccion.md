@@ -5,7 +5,7 @@ title: Lucha contra la corrupción en Paraguay
 #description: un proyecto con una imagen de fondo
 img: assets/img/reaccion.jpeg
 importance: 3
-category: fun
+category: personal
 ---
 
 ReAcción tiene como objetivo catalizar la innovación comunitaria contra la corrupción utilizando educación cívica, construcción colectiva, comunicación estratégica y tecnología social para promover la transparencia y el buen gobierno, especialmente en el sector educativo.

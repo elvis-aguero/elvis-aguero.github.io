@@ -5,7 +5,7 @@ title: Mathura
 description: Promoting education acess in paraguay
 img: assets/img/mathura.jpg
 importance: 4
-category: fun
+category: personal
 ---
 
 Paraguay has a mediocre <a href="https://ourworldindata.org/grapher/mean-years-of-schooling-long-run">mean years of schooling</a> when compared to other countries. To mitigate this, Paraguay's government offers full-tuition scholarships to pursue undergraduate degrees in our country for high-school students. 

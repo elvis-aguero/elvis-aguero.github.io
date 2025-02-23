@@ -1,3 +1,5 @@
+---
+page_id: prj_reaccion
 layout: page
 title: Lucha contra la corrupción en Paraguay
 #description: un proyecto con una imagen de fondo

@@ -5,7 +5,7 @@ title: SimilaritySolver.jl
 description: Un buscador simbólico de Ecuaciones Diferenciales Parciales para soluciones de similitud.
 img: #assets/img/boundary_layer.png
 importance: 3
-category: work
+category: fun
 related_publications: true
 ---
 
@@ -22,7 +22,7 @@ related_publications: true
     </div>
 </div>
 <div class="caption">
-    Añada texto a las fotos fácilmente. A la izquierda, una carretera atraviesa un túnel. En el centro, hojas caen artísticamente en una sesión de fotos hipster. A la derecha, en otra sesión de fotos hipster, un leñador agarra un puñado de agujas de pino.
+    Ponga texto a las fotos fácilmente. A la izquierda, una carretera atraviesa un túnel. En el centro, unas hojas caen artísticamente en una sesión de fotos hipster. A la derecha, en otra sesión de fotos hipster, un leñador agarra un puñado de agujas de pino.
 </div>
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
@@ -35,7 +35,7 @@ related_publications: true
 
 También puede poner texto normal entre sus filas de imágenes, incluso citas {% cite einstein1950meaning %}.
 Digamos que quería escribir un poco sobre su proyecto antes de publicar el resto de las imágenes.
-Describe cómo trabajó, sudó, _sangró_ por su proyecto, y luego... revela su gloria en la siguiente fila de imágenes.
+Describe cómo trabajó arduamente, sudó, _sangró_ por su proyecto, y luego... revela su gloria en la siguiente fila de imágenes.
 
 <div class="row justify-content-sm-center">
     <div class="col-sm-8 mt-3 mt-md-0">
@@ -53,5 +53,3 @@ El código es simple.
 Simplemente envuelva sus imágenes con `<div class="col-sm">` y colóquelas dentro de `<div class="row">` (lea más sobre el sistema <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a>).
 Para que las imágenes sean receptivas, agregue la clase `img-fluid` a cada una; para esquinas redondeadas y sombras, use las clases `rounded` y `z-depth-1`.
 Aquí está el código para la última fila de imágenes de arriba:
-
-{% raw %}

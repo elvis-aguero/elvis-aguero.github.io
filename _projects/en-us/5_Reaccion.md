@@ -5,7 +5,7 @@ title: Battling corruption in Paraguay
 #description: a project with a background image
 img: assets/img/reaccion.jpeg
 importance: 3
-category: fun
+category: personal
 ---
 
 ReAcción aims to catalize community innovation against corruption using civic education, collective construction, strategic communication, and social technology to promote transparency and good governance, especially in the education sector.

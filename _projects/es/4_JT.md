@@ -5,7 +5,7 @@ title: Promoción de las Olimpiadas de Ciencias
 description: otro sin imagen
 img: assets/img/jt2.jpg
 importance: 3
-category: fun
+category: personal
 ---
 
 Las Olimpiadas de Ciencias han transformado mi forma de ver el mundo.

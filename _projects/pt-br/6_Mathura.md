@@ -5,7 +5,7 @@ title: Mathura
 description: Promovendo o acesso à educação no Paraguai
 img: assets/img/mathura.jpg
 importance: 4
-category: fun
+category: personal
 ---
 
 O Paraguai tem uma <a href="https://ourworldindata.org/grapher/mean-years-of-schooling-long-run">média de anos de escolaridade</a> medíocre quando comparado a outros países. Para mitigar isso, o governo do Paraguai oferece bolsas de estudo integrais para cursar graduação em nosso país para estudantes do ensino médio.

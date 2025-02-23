@@ -5,7 +5,7 @@ title: Mathura
 description: Promoviendo el acceso a la educación en Paraguay
 img: assets/img/mathura.jpg
 importance: 4
-category: fun
+category: personal
 ---
 
 Paraguay tiene una <a href="https://ourworldindata.org/grapher/mean-years-of-schooling-long-run">media de años de escolarización</a> mediocre en comparación con otros países. Para mitigar esto, el gobierno de Paraguay ofrece becas de matrícula completa para cursar estudios de grado en nuestro país a estudiantes de secundaria.

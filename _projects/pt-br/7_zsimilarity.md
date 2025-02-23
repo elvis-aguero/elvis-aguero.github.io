@@ -5,7 +5,7 @@ title: SimilaritySolver.jl
 description: Um buscador simbólico de EDPs (Equações Diferenciais Parciais) para soluções de similaridade.
 img: #assets/img/boundary_layer.png
 importance: 3
-category: work
+category: fun
 related_publications: true
 ---
 
@@ -54,4 +54,3 @@ Basta envolver suas imagens com `<div class="col-sm">` e colocá-las dentro de `
 Para tornar as imagens responsivas, adicione a classe `img-fluid` a cada uma; para cantos arredondados e sombras, use as classes `rounded` e `z-depth-1`.
 Aqui está o código para a última linha de imagens acima:
 
-{% raw %}

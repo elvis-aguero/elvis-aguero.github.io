@@ -1,3 +1,4 @@
+---
 layout: page
 title: ¡Fui becario de verano en el CERN!.
 description:

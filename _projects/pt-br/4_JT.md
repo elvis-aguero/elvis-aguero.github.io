@@ -1,10 +1,11 @@
+---
 page_id: prj_jt
 layout: page
 title: Promovendo Olimpíadas de Ciências
 description: outra sem imagem
 img: assets/img/jt2.jpg
 importance: 3
-category: fun
+category: personal
 ---
 
 As Olimpíadas de Ciências transformaram a maneira como vejo o mundo.

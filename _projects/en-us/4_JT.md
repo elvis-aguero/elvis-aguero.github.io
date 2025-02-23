@@ -5,7 +5,7 @@ title: Promoting Science Olympiads
 description: another without an image
 img: assets/img/jt2.jpg
 importance: 3
-category: fun
+category: personal
 ---
 
 Science Olympiads have reshaped the way I see the world.  

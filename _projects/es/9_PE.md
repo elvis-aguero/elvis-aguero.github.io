@@ -1,8 +1,9 @@
+---
 page_id: prj_PE
 layout: page
-title: Por favor, aprende a programar
+title: Plz learn to code
 description: 
-img: assets/img/PE.jpg
+img: assets/img/PE.png
 importance: 4
 category: fun
 ---
