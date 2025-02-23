@@ -2,18 +2,18 @@
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
+      value: Elvis Aguero
     - name: Date of Birth
-      value: 14th March 1879
+      value: May 6th, 1999
     - name: Languages
-      value: English, German
+      value: Spanish, Guarani, Portuguese, English
 
 - title: Education
   type: time_table
   contents:
     - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
+      institution: Brown University, USA
+      year: 2029
       description:
         - Description 1.
         - Description 2.
@@ -64,10 +64,6 @@
 - title: Open Source Projects
   type: time_table
   contents:
-    - title: <a href="https://github.com/george-gca/multi-language-al-folio">multi-language-al-folio</a>
-      year: 2023-now
-      description: A fork of al-folio theme with support for multiple languages.
-
     - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
       year: 2015-now
       description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
