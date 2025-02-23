@@ -1,9 +1,9 @@
 ---
 page_id: projects
 layout: page
-title: Projetos
-permalink: /projects/
-description: Aqui estão alguns dos projetos em que estive envolvido ultimamente!.
+title: Projets
+permalink: /projets/
+description: Voici quelques-uns des projets auxquels j'ai participé récemment !.
 nav: true
 nav_order: 3
 display_categories: [work, personal, fun]

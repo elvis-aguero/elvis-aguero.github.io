@@ -1,16 +1,15 @@
----
 page_id: repositories
 layout: page
 permalink: /repositories/
-title: repositórios
-description: Edite o `_data/repositories.yml` e altere as listas `github_users` e `github_repos` para incluir seu próprio perfil do GitHub e repositórios.
+title: repositories
+description: Modifiez le fichier `_data/repositories.yml` et changez les listes `github_users` et `github_repos` pour inclure votre propre profil et vos propres dépôts GitHub.
 nav: false
 nav_order: 4
 ---
 
 {% if site.data.repositories.github_users %}
 
-## Usuários do GitHub
+## Utilisateurs GitHub
 
 <div class="repositories d-flex flex-wrap flex-md-row flex-column justify-content-between align-items-center">
   {% for user in site.data.repositories.github_users %}
@@ -38,7 +37,7 @@ nav_order: 4
 
 {% if site.data.repositories.github_repos %}
 
-## Repositórios do GitHub
+## Dépôts GitHub
 
 <div class="repositories d-flex flex-wrap flex-md-row flex-column justify-content-between align-items-center">
   {% for repo in site.data.repositories.github_repos %}
