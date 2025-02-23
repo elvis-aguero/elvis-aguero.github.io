@@ -22,4 +22,4 @@ The generation, manipulation, and detection of spin currents have gathered great
 
 Under the guidance of Flávio Garcia and Luiz Sampaio (and their amazing lab members) at the Brazilian Center for Research in Physics, we investigated which materials are suitable to generate spin currents.
 We grew thin bilayer films of permalloys together with different pure elements, and using ferromagnetic resonance, we measured their energy dissipation in the form of angular momentum. As the theory of magnetic susceptibility predicts, this dissipation is proportional to the damping mechanism in the LLG equation. 
-Finally, we employed the inverse spin hall effect as an experimental means to measure the amount of angular momenta in the form of coherent spin current. A final report paper is available <a href="/assets/pdf/Spintronics__The_New_Electronics.pdf">here</a>.
+Finally, we employed the inverse spin hall effect as an experimental means to measure the amount of angular momenta in the form of coherent spin current. A final report paper is available <a href="/assets/pdf/Spintronics__The_New_Electronics.pdf">here</a>
