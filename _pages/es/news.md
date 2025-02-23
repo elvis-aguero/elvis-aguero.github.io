@@ -1,3 +1,4 @@
+---
 page_id: news
 layout: page
 title: news

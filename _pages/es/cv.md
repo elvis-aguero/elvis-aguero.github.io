@@ -5,8 +5,8 @@ permalink: /cv/
 title: cv
 nav: true
 nav_order: 5
-cv_pdf: CV_Elvis.pdf # tu peux aussi utiliser des liens externes ici
-description: Une version mise à jour de mon CV
+cv_pdf: CV_Elvis.pdf # you can also use external links here
+description: Una versión actualizada de mi CV
 toc:
   sidebar: left
 ---

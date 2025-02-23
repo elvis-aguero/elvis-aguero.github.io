@@ -1,3 +1,4 @@
+---
 id: dropdown
 layout: page
 title: submenus
@@ -13,3 +14,4 @@ children:
   - title: divider
   - title: blog
     permalink: /blog/
+---

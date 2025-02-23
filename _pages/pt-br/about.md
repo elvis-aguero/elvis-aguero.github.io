@@ -14,10 +14,18 @@ profile:
     <p>School of Engineering</p>
     <p>84 Hope St, Providence, RI, USA</p>
 
-news: true # includes a list of news items
-latest_posts: false
 selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
+
+announcements:
+  enabled: true # includes a list of news items
+  scrollable: true # adds a vertical scroll bar if there are more than 3 news items
+  limit: 5 # leave blank to include all the news in the `_news` folder
+
+latest_posts:
+  enabled: false
+  scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
+  limit: 3 # leave blank to include all the blog posts
 ---
 
 Sou um estudante de doutorado do primeiro ano na Escola de Engenharia da Brown University, depois de ter concluído um mestrado em Matemática Aplicada, gentilmente supervisionado por [André Nachbin](https://www.wpi.edu/people/faculty/anachbin) no [IMPA](https://impa.br/), que comecei quando tinha 17 anos, e também concluí um B.S. em Engenharia Física na [UNILA](https://portal.unila.edu.br/)

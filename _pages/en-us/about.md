@@ -1,7 +1,7 @@
 ---
 page_id: about
 layout: about
-title: About
+title: about
 permalink: /
 subtitle: Engineer, Physicst, Applied Mathematician.
 
@@ -14,10 +14,18 @@ profile:
     <p>School of Engineering</p>
     <p>84 Hope St, Providence, RI, USA</p>
 
-news: true # includes a list of news items
-latest_posts: false
 selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
+
+announcements:
+  enabled: true # includes a list of news items
+  scrollable: true # adds a vertical scroll bar if there are more than 3 news items
+  limit: 5 # leave blank to include all the news in the `_news` folder
+
+latest_posts:
+  enabled: false
+  scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
+  limit: 3 # leave blank to include all the blog posts
 ---
 
 I'm a first-year PhD student at the School of Engineering at Brown University, after having completed a MSc. in Applied Maths, kindly supervised by [André Nachbin](https://www.wpi.edu/people/faculty/anachbin)  at [IMPA](https://impa.br/), which I started when I was 17 years old, and also completed a B.S. in Engineering Physics at [UNILA](https://portal.unila.edu.br/)

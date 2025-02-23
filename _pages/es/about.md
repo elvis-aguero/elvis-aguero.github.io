@@ -1,3 +1,4 @@
+---
 page_id: about
 layout: about
 title: Acerca de
@@ -13,10 +14,18 @@ profile:
     <p>Escuela de Ingeniería</p>
     <p>84 Hope St, Providence, RI, USA</p>
 
-news: true # includes a list of news items
-latest_posts: false
 selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
+
+announcements:
+  enabled: true # includes a list of news items
+  scrollable: true # adds a vertical scroll bar if there are more than 3 news items
+  limit: 5 # leave blank to include all the news in the `_news` folder
+
+latest_posts:
+  enabled: false
+  scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
+  limit: 3 # leave blank to include all the blog posts
 ---
 
 Soy un estudiante de doctorado de primer año en la Escuela de Ingeniería de la Universidad de Brown, después de haber completado una Maestría en Matemáticas Aplicadas, amablemente supervisado por [André Nachbin](https://www.wpi.edu/people/faculty/anachbin) en [IMPA](https://impa.br/), que comencé cuando tenía 17 años, y también completé una Licenciatura en Física de Ingeniería en [UNILA](https://portal.unila.edu.br/)
