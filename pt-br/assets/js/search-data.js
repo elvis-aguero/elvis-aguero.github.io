@@ -15,30 +15,86 @@ const ninja = document.querySelector('ninja-keys');
 // add the home and posts menu items
 ninja.data = [{
     id: "nav-sobre",
-    title: "Sobre",
+    title: "sobre",
     section: "Menu de navegação",
     handler: () => {
       window.location.href = "/pt-br/";
     },
-  },{id: "nav-projetos",
-          title: "Projetos",
-          description: "Aqui estão alguns dos projetos em que estive envolvido ultimamente!.",
+  },{id: "nav-blog",
+          title: "blog",
+          description: "um tema simples para acadêmicos",
+          section: "Menu de navegação",
+          handler: () => {
+            window.location.href = "/pt-br/blog/";
+          },
+        },{id: "nav-publicações",
+          title: "publicações",
+          description: "publicações por categoria em ordem cronológica reversa. gerado pelo jekyll-scholar.",
+          section: "Menu de navegação",
+          handler: () => {
+            window.location.href = "/pt-br/publications/";
+          },
+        },{id: "nav-projetos",
+          title: "projetos",
+          description: "Uma crescente coleção de seus projetos interessantes.",
           section: "Menu de navegação",
           handler: () => {
             window.location.href = "/pt-br/projects/";
           },
+        },{id: "nav-repositórios",
+          title: "repositórios",
+          description: "Edite o `_data/repositories.yml` e mude as listas `github_users` e `github_repos` para incluir seu próprio perfil do GitHub e repositórios.",
+          section: "Menu de navegação",
+          handler: () => {
+            window.location.href = "/pt-br/repositories/";
+          },
         },{id: "nav-cv",
           title: "cv",
-          description: "An updated version of my CV",
+          description: "Esta é uma descrição da página. Você pode modificá-la em &#39;_pages/cv.md&#39;. Também pode alterar ou remover o botão no topo de download de pdf.",
           section: "Menu de navegação",
           handler: () => {
             window.location.href = "/pt-br/cv/";
           },
-        },{id: "post-un-post-con-galerías-de-imágenes",
+        },{id: "nav-ensino",
+          title: "ensino",
+          description: "Materiais de cursos que você ministrou. Substitua esse texto com sua descrição.",
+          section: "Menu de navegação",
+          handler: () => {
+            window.location.href = "/pt-br/teaching/";
+          },
+        },{id: "nav-membros",
+          title: "membros",
+          description: "membros do grupo de pesquisa ou laboratório",
+          section: "Menu de navegação",
+          handler: () => {
+            window.location.href = "/pt-br/people/";
+          },
+        },{id: "dropdown-publicações",
+              title: "publicações",
+              description: "",
+              section: "Outras opções",
+              handler: () => {
+                window.location.href = "/pt-br";
+              },
+            },{id: "dropdown-projetos",
+              title: "projetos",
+              description: "",
+              section: "Outras opções",
+              handler: () => {
+                window.location.href = "/pt-br";
+              },
+            },{id: "dropdown-blog",
+              title: "blog",
+              description: "",
+              section: "Outras opções",
+              handler: () => {
+                window.location.href = "/pt-br/blog/";
+              },
+            },{id: "post-a-post-with-image-galleries",
       
-        title: "un post con galerías de imágenes",
+        title: "a post with image galleries",
       
-      description: "así es como podrían verse las galerías de imágenes incluidas",
+      description: "this is what included image galleries could look like",
       section: "Postagens",
       handler: () => {
         
@@ -309,17 +365,6 @@ ninja.data = [{
           window.location.href = "/pt-br/blog/2021/diagrams/";
         
       },
-    },{id: "post-a-distill-style-blog-post",
-      
-        title: "a distill-style blog post",
-      
-      description: "an example of a distill-style blog post and main elements",
-      section: "Postagens",
-      handler: () => {
-        
-          window.location.href = "/pt-br/blog/2021/distill/";
-        
-      },
     },{id: "post-a-post-with-twitter",
       
         title: "a post with twitter",
@@ -397,94 +442,96 @@ ninja.data = [{
           window.location.href = "/pt-br/blog/2015/formatting-and-links/";
         
       },
-    },{id: "news-nosso-artigo-impacto-de-uma-esfera-rígida-sobre-uma-membrana-elástica-foi-aceito-nos-proceedings-of-the-royal-society-a",
-          title: 'Nosso artigo “Impacto de uma esfera rígida sobre uma membrana elástica” foi aceito...',
+    },{id: "news-um-anúncio-simples-em-uma-linha",
+          title: 'Um anúncio simples em uma linha.',
           description: "",
-          section: "Novidades",},{id: "news-tive-o-prazer-de-visitar-e-colaborar-com-o-harris-lab-brown-university",
-          title: 'Tive o prazer de visitar e colaborar com o Harris Lab @ Brown...',
+          section: "Novidades",},{id: "news-um-anúncio-longo-com-detalhes",
+          title: 'Um anúncio longo com detalhes',
           description: "",
-          section: "Novidades",},{id: "news-participei-da-maravilhosa-escola-avançada-de-física-experimental-no-cbpf-onde-fizemos-pesquisa-sobre-fenômenos-fundamentais-para-dispositivos-espintrônicos",
-          title: 'Participei da maravilhosa Escola Avançada de Física Experimental no CBPF, onde fizemos pesquisa...',
+          section: "Novidades",handler: () => {
+              window.location.href = "/pt-br/news/announcement_2/";
+            },},{id: "news-um-anúncio-simples-em-uma-linha-com-markdown-emoji-sparkles-smile",
+          title: 'Um anúncio simples em uma linha com Markdown emoji! :sparkles: :smile:',
           description: "",
-          section: "Novidades",},{id: "news-estarei-começando-meu-doutorado-na-escola-de-engenharia-da-universidade-brown-será-uma-excelente-oportunidade-para-aprender-novas-habilidades",
-          title: 'Estarei começando meu doutorado na Escola de Engenharia da Universidade Brown!. Será uma...',
-          description: "",
-          section: "Novidades",},{id: "news-tive-o-prazer-de-ser-selecionado-para-o-programa-de-estudantes-de-verão-do-cern",
-          title: 'Tive o prazer de ser selecionado para o programa de estudantes de verão...',
-          description: "",
-          section: "Novidades",},{id: "news-apresentei-meu-trabalho-mais-recente-no-brazil-china-joint-mathematical-meeting",
-          title: 'Apresentei meu trabalho mais recente no Brazil-China Joint Mathematical Meeting',
-          description: "",
-          section: "Novidades",},{id: "news-apresentei-meu-trabalho-mais-recente-na-reunião-anual-da-divisão-de-dinâmica-dos-fluidos-da-sociedade-americana-de-física",
-          title: 'Apresentei meu trabalho mais recente na Reunião Anual da Divisão de Dinâmica dos...',
-          description: "",
-          section: "Novidades",},{id: "projects-simulação-de-impactos-deformáveis",
-          title: 'Simulação de impactos deformáveis',
-          description: "O método de matching cinemático",
+          section: "Novidades",},{id: "projects-project-7",
+          title: 'project 7',
+          description: "with background image",
           section: "Projetos",handler: () => {
-              window.location.href = "/pt-br/projects/1_KM/";
-            },},{id: "projects-spintrônica",
-          title: 'Spintrônica',
-          description: "Avançando nossa compreensão sobre materiais spintrônicos",
+              window.location.href = "/pt-br/projects/7_project/";
+            },},{id: "projects-project-8",
+          title: 'project 8',
+          description: "an other project with a background image and giscus comments",
           section: "Projetos",handler: () => {
-              window.location.href = "/pt-br/projects/2_CBPF/";
-            },},{id: "projects-promovendo-olimpíadas-de-ciências",
-          title: 'Promovendo Olimpíadas de Ciências',
-          description: "outra sem imagem",
+              window.location.href = "/pt-br/projects/8_project/";
+            },},{id: "projects-project-9",
+          title: 'project 9',
+          description: "another project with an image 🎉",
           section: "Projetos",handler: () => {
-              window.location.href = "/pt-br/projects/4_JT/";
-            },},{id: "projects-lucha-contra-la-corrupción-en-paraguay",
-          title: 'Lucha contra la corrupción en Paraguay',
-          description: "",
+              window.location.href = "/pt-br/projects/9_project/";
+            },},{id: "projects-projeto-1",
+          title: 'projeto 1',
+          description: "com imagem de fundo",
           section: "Projetos",handler: () => {
-              window.location.href = "/pt-br/projects/5_Reaccion/";
-            },},{id: "projects-mathura",
-          title: 'Mathura',
-          description: "Promovendo o acesso à educação no Paraguai",
+              window.location.href = "/pt-br/projects/1_project/";
+            },},{id: "projects-projeto-2",
+          title: 'projeto 2',
+          description: "um projeto com imagem de fundo e comentários do giscus",
           section: "Projetos",handler: () => {
-              window.location.href = "/pt-br/projects/6_Mathura/";
-            },},{id: "projects-similaritysolver-jl",
-          title: 'SimilaritySolver.jl',
-          description: "Um buscador simbólico de EDPs (Equações Diferenciais Parciais) para soluções de similaridade.",
+              window.location.href = "/pt-br/projects/2_project/";
+            },},{id: "projects-projeto-3-com-um-nome-bem-longo",
+          title: 'projeto 3 com um nome bem longo',
+          description: "um projeto que redireciona pra outro website",
           section: "Projetos",handler: () => {
-              window.location.href = "/pt-br/projects/7_zsimilarity/";
-            },},{id: "projects-por-favor-aprende-a-programar",
-          title: 'Por favor, aprende a programar',
-          description: "",
+              window.location.href = "/pt-br/projects/3_project/";
+            },},{id: "projects-projeto-4",
+          title: 'projeto 4',
+          description: "outro sem imagem",
           section: "Projetos",handler: () => {
-              window.location.href = "/pt-br/projects/9_PE/";
-            },},{id: "projects-i-was-a-summer-intern-at-cern",
-          title: 'I was a summer intern at CERN!.',
-          description: "",
+              window.location.href = "/pt-br/projects/4_project/";
+            },},{id: "projects-projeto-5",
+          title: 'projeto 5',
+          description: "um projeto com imagem de fundo",
           section: "Projetos",handler: () => {
-              window.location.href = "/pt-br/projects/announcement_2/";
+              window.location.href = "/pt-br/projects/5_project/";
+            },},{id: "projects-projeto-6",
+          title: 'projeto 6',
+          description: "um projeto sem imagem",
+          section: "Projetos",handler: () => {
+              window.location.href = "/pt-br/projects/6_project/";
             },},{
-        id: 'social-github',
-        title: 'GitHub',
+        id: 'social-email',
+        title: 'Enviar um email',
         section: 'Redes sociais',
         handler: () => {
-          window.open("https://github.com/elvispy", "_blank");
+          window.open("mailto:%79%6F%75@%65%78%61%6D%70%6C%65.%63%6F%6D", "_blank");
         },
       },{
-        id: 'social-linkedin',
-        title: 'LinkedIn',
+        id: 'social-inspire',
+        title: 'Inspire HEP',
         section: 'Redes sociais',
         handler: () => {
-          window.open("https://www.linkedin.com/in/elvisaguero", "_blank");
+          window.open("https://inspirehep.net/authors/1010907", "_blank");
+        },
+      },{
+        id: 'social-rss',
+        title: 'RSS Feed',
+        section: 'Redes sociais',
+        handler: () => {
+          window.open("/feed.xml", "_blank");
         },
       },{
         id: 'social-scholar',
         title: 'Google Scholar',
         section: 'Redes sociais',
         handler: () => {
-          window.open("https://scholar.google.com/citations?user=D3sDR9EAAAAJ", "_blank");
+          window.open("https://scholar.google.com/citations?user=qc6CJjYAAAAJ", "_blank");
         },
       },{
         id: 'social-custom_social',
         title: 'Custom_social',
         section: 'Redes sociais',
         handler: () => {
-          window.open("https://sites.brown.edu/harrislab/", "_blank");
+          window.open("https://www.alberteinstein.com/", "_blank");
         },
       },{
           id: 'lang-en-us',
